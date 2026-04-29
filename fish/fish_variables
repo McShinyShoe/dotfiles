@@ -1,5 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export CC:sccache\x20gcc
+SETUVAR --export CXX:sccache\x20g\x2b\x2b
+SETUVAR --export RUSTC_WRAPPER:sccache
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:4300
