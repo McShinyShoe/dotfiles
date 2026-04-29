@@ -50,7 +50,8 @@
   margin: 5px 0;
 }
 
-#window {
+#window,
+#tray {
   border-radius: 1rem;
   border: 2px solid alpha(@overlay0, 0.8);
 }
