@@ -1,7 +1,7 @@
 #!/bin/bash
 
-WALLPAPER_DIR="$HOME/Pictures/Background/desktop/catppuccin"
-INTERVAL=600
+WALLPAPER_DIR="$HOME/Pictures/Background/desktop"
+INTERVAL=120
 
 awww-daemon &
 sleep 1
