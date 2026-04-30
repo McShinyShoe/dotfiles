@@ -13,7 +13,7 @@
 }
 
 #workspaces {
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin: 5px;
   background-color: alpha(@surface0, 0.6);
   margin-left: 1rem;
@@ -22,18 +22,18 @@
 
 #workspaces button {
   color: alpha(@lavender, 0.6);
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 0.4rem;
 }
 
 #workspaces button.active {
   color: @sky;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 #workspaces button:hover {
   color: @sapphire;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 #window,
@@ -52,13 +52,13 @@
 
 #window,
 #tray {
-  border-radius: 1rem;
+  border-radius: 2rem;
   border: 2px solid alpha(@overlay0, 0.8);
 }
 
 #clock {
   color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
+  border-radius: 0px 2rem 2rem 0px;
   margin-right: 1rem;
   border-top: 2px solid alpha(@overlay0, 0.8);
   border-bottom: 2px solid alpha(@overlay0, 0.8);
@@ -91,7 +91,7 @@
 
 #pulseaudio {
   color: @maroon;
-  border-radius: 1rem 0px 0px 1rem;
+  border-radius: 2rem 0px 0px 2rem;
   margin-left: 1rem;
   border-left: 2px solid alpha(@overlay0, 0.8);
   border-top: 2px solid alpha(@overlay0, 0.8);
@@ -101,11 +101,11 @@
 
 #custom-music {
   color: @mauve;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 #custom-lock {
-  border-radius: 1rem 0px 0px 1rem;
+  border-radius: 2rem 0px 0px 2rem;
   color: @lavender;
   border-top: 2px solid alpha(@overlay0, 0.8);
   border-bottom: 2px solid alpha(@overlay0, 0.8);
@@ -114,7 +114,7 @@
 
 #custom-power {
   margin-right: 1rem;
-  border-radius: 0px 1rem 1rem 0px;
+  border-radius: 0px 2rem 2rem 0px;
   color: @red;
   border-top: 2px solid alpha(@overlay0, 0.8);
   border-bottom: 2px solid alpha(@overlay0, 0.8);
@@ -123,5 +123,5 @@
 
 #tray {
   margin-right: 1rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
